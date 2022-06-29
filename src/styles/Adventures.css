@@ -1,0 +1,70 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.adventure-item{
+    width: 80%;
+    height: 1250px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+}
+.photo {
+    object-fit: cover;
+    width: 282px;
+    height: 252px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 30px;
+}
+.adventure-text {
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+.notinterested{
+    width: 282px;
+    height: 38px;
+    background: #EFAB29;
+    border-radius: 5px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #EFFCF1;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.readmore{
+    background: transparent;
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1rem;
+    cursor: pointer;
+    padding-left: 0.25rem;
+}
+.title-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 282px;
+    margin: auto;
+    margin-top: 20px;
+}
+.title-icons h5{
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 47px;
+    color: #0E2911;
+}
+.icon{
+    color: #EFAB29;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.icon2{
+    color: red;
+}

@@ -1,0 +1,107 @@
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.explorebtn{
+    width: 120px;
+    height: 36px;
+    background-color: #EFAB29;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+.explorebtn:focus {
+    border: none;
+    outline: none;
+}
+.landing-desc{
+    width: 874px;
+    height: 411px;
+    margin: auto;
+    margin-top: 80px;
+}
+.landing-desc h2{
+    font-family: 'Mansalva', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
+.landing-desc h1{
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    color: white;
+}
+.landing-desc p{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.discover{
+    width: 147px;
+    height: 44px;
+    margin: auto;
+    font-family: 'Mansalva', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+
+}
+.discover2{
+    width: 874px;
+    height: 76px;
+    margin: auto;
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    color: white;
+
+}
+.discover3{
+    width: 820px;
+    height: 95px;
+    margin: auto;
+    margin-top: 65px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+.discover4 button{
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 40px;
+    width: 192px;
+    height: 38px;
+    background: #EFAB29;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+}
+.discover4 button:focus{
+    border: none;
+    outline: none;
+}
